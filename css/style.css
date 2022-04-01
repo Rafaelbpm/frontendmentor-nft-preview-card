@@ -7,7 +7,7 @@
     border: 1px solid rgb(63, 62, 62);
 }
 
-root:{
+:root{
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
     --very-dark-blue-m-bg: hsl(217, 54%, 11%);
@@ -20,19 +20,12 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-h3{
-    color: aqua;
-}
-
-.etherium{
-
-}
-
 
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
+}
+
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
