@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid rgb(63, 62, 62);
+    /* border: 1px solid rgb(63, 62, 62); */
 }
 
 :root{
@@ -18,14 +18,53 @@
 
 body{
     font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue-m-bg);
 }
 
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-card{
+    width: 375px;
+    background-color: var(--very-dark-blue-c-bg);
+}
+
+.nft-card h2{
+    color: var(--white);
+}
+
+.nft-card p{
+    color: var(--soft-blue);
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+}
+
+.nft-creator{
+    width: 2.5rem;
+    border-image: 10px solid rgb(255, 255, 255);
+    
+}
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 20px;
+color: var(--soft-blue);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--cyan)
 }
