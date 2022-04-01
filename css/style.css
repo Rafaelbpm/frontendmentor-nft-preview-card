@@ -21,6 +21,10 @@ body{
     background-color: var(--very-dark-blue-m-bg);
 }
 
+img{
+    width: 100%;
+}
+
 .container{
     min-height: 100vh;
     display: flex;
@@ -32,6 +36,12 @@ body{
 .nft-card{
     width: 375px;
     background-color: var(--very-dark-blue-c-bg);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.nft-image{
+    border-radius: .5rem;
 }
 
 .nft-card h2{
@@ -52,17 +62,18 @@ body{
     align-items: center;
 }
 
-.nft-creator{
+.creator-ph{
     width: 2.5rem;
-    border-image: 10px solid rgb(255, 255, 255);
-    
+    margin-right: 1rem;
+    border-radius: 50px;
+    border: 1px solid var(--white);    
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
     margin-top: 20px;
-color: var(--soft-blue);
+    color: var(--soft-blue);
 }
 
 .attribution a {
