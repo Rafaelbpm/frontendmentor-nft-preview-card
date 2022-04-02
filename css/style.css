@@ -22,6 +22,11 @@ body{
     background-color: var(--very-dark-blue-m-bg);
 }
 
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
 img{
     width: 100%;
 }
@@ -45,21 +50,30 @@ img{
     border-radius: .5rem;
 }
 
-.nft-card h2{
+.nft-name{
     color: var(--white);
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.nft-card p{
+.nft-description{
     color: var(--soft-blue);
     font-weight: 300;
-    padding-top: 1rem;
 }
 
-.price{
+.informations{
     display: flex;
     justify-content: space-between;
     padding-top: 1rem;
+}
+
+.eth-price{
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.time-left{
+color: var(--soft-blue);
 }
 
 .creator{
@@ -68,12 +82,21 @@ img{
     padding-top: 1rem;
 }
 
-.creator-ph{
+.creator-photo{
     
     width: 2.5rem;
     margin-right: 1rem;
     border-radius: 50px;
     border: 1px solid var(--white);    
+}
+
+.creator-name{
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.creator-name-tag{
+    color: var(--white);
 }
 
 .attribution {
