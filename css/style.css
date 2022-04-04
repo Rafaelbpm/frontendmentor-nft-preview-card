@@ -1,140 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* border: 1px solid rgba(63, 62, 62, 0.24); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid rgba(63, 62, 62, 0.24); */
 }
 
-:root{
-    --soft-blue: hsl(215, 51%, 70%);
-    --cyan: hsl(178, 100%, 50%);
-    --very-dark-blue-m-bg: hsl(217, 54%, 11%);
-    --very-dark-blue-c-bg: hsl(216, 50%, 16%);
-    --very-dark-blue-line: hsl(215, 32%, 27%);
-    --white: hsl(0, 0%, 100%);
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --very-dark-blue-m-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-c-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
-body{
-    font-family: 'Outfit', sans-serif;
-    font-size: 18px;
-    background-color: var(--very-dark-blue-m-bg);
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: var(--very-dark-blue-m-bg);
 }
 
-p{
-    font-size: 18px;
+p {
+  font-size: 18px;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
 
-.container{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.nft-card{
-    width: 375px;
-    background-color: var(--very-dark-blue-c-bg);
-    border-radius: 1rem;
-    padding: 1.5rem;
+.nft-card {
+  width: 375px;
+  background-color: var(--very-dark-blue-c-bg);
+  border-radius: 1rem;
+  padding: 1.5rem;
 }
 
-.nft-image{
-    opacity: 100%;
-    border-radius: .5rem;
+.nft-image {
+  opacity: 100%;
+  border-radius: 0.5rem;
 }
 
-.nft-image:hover{
-    background-color: var(--cyan);
-    border-radius: 100px;
-    
+.nft-image:hover {
+  background-color: var(--cyan);
+  border-radius: 100px;
 }
 
-.nft-name{
-    color: var(--white);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.nft-name {
+  color: var(--white);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.nft-name:hover{
-    color: var(--cyan);
+.nft-name:hover {
+  color: var(--cyan);
 }
 
-.nft-description{
-    color: var(--soft-blue);
-    font-weight: 300;
-    margin-bottom: 1rem;
+.nft-description {
+  color: var(--soft-blue);
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
-.informations{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1rem;
+.informations {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
-.price{
-    display: flex;
+.teste-etherium {
+  display: flex;
 }
 
-.eth-icon{
-    height: fit-content;
-    margin-right: 0;
+.eth-icon {
+  /* height: fit-content; */
+  margin-right: 12px;
 }
 
-.eth-price{
-    color: var(--cyan);
-    font-weight: 600;
+.eth-price {
+  color: var(--cyan);
+  font-weight: 600;
 }
 
-.time-left{
-color: var(--soft-blue);
+.teste-clock {
+  display: flex;
 }
 
-.divider{
-    border: 1px solid var(--very-dark-blue-line);
-    margin-top: 1rem;
+.clock-icon {
+  /* height: fit-content; */
+  margin-right: 12px;
+  }
+
+.time-left {
+  color: var(--soft-blue);
 }
 
-.creator{
-    display: flex;
-    align-items: center;
-    padding-top: 1rem;
+.divider {
+  border: 1px solid var(--very-dark-blue-line);
+  margin-top: 1rem;
 }
 
-.creator-photo{
-    width: 2.5rem;
-    margin-right: 1rem;
-    border-radius: 50px;
-    border: 1px solid var(--white);    
+.creator {
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
 }
 
-.creator-name{
-    color: var(--soft-blue);
-    font-weight: 300;
-    font-size: 16px;
+.creator-photo {
+  width: 2.5rem;
+  margin-right: 1rem;
+  border-radius: 50px;
+  border: 1px solid var(--white);
 }
 
-.creator-name-tag{
-    color: var(--white);
+.creator-name {
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: 16px;
 }
 
-.creator-name-tag:hover{
-    color: var(--cyan);
+.creator-name-tag {
+  color: var(--white);
+}
+
+.creator-name-tag:hover {
+  color: var(--cyan);
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-    margin-top: 20px;
-    color: var(--soft-blue);
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--soft-blue);
 }
 
 .attribution a {
-    color: var(--cyan)
+  color: var(--cyan);
 }
