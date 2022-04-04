@@ -82,7 +82,6 @@ img {
 }
 
 .eth-icon {
-  /* height: fit-content; */
   margin-right: 12px;
 }
 
@@ -96,9 +95,8 @@ img {
 }
 
 .clock-icon {
-  /* height: fit-content; */
   margin-right: 12px;
-  }
+}
 
 .time-left {
   color: var(--soft-blue);
