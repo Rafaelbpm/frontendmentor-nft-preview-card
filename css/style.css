@@ -46,13 +46,12 @@ img {
 }
 
 .nft-image {
-;
 }
 
 .nft-image:hover {
   color: var(--cyan);
   border-radius: 100px;
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .nft-name {
@@ -63,7 +62,7 @@ img {
 
 .nft-name:hover {
   color: var(--cyan);
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .nft-description {
@@ -133,7 +132,7 @@ img {
 
 .creator-name-tag:hover {
   color: var(--cyan);
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .attribution {
