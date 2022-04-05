@@ -166,6 +166,7 @@ img {
 
 .creator a{
   color: var(--white);
+  margin-left: 4px;
 }
 
 .creator a:hover {
