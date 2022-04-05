@@ -45,12 +45,50 @@ img {
   padding: 1.5rem;
 }
 
+.color-block {
+  background-color: aqua;
+  position: absolute;
+  min-height: 327px;
+  min-width: 327px;
+  border-radius: 10px;
+  z-index: 1;
+  opacity: 40%;
+}
+
+.block {
+  min-height: 327px;
+  min-width: 327px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.block:hover {
+  opacity: 100%;
+}
+
+.eye-icon {
+  max-width: 60px;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  opacity: 100;
+}
+
 .nft-image {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .nft-image:hover {
   color: var(--cyan);
-  border-radius: 100px;
+  /* border-radius: 100px; */
   cursor: pointer;
 }
 
@@ -126,11 +164,11 @@ img {
   font-size: 16px;
 }
 
-.creator-name-tag {
+.creator a{
   color: var(--white);
 }
 
-.creator-name-tag:hover {
+.creator a:hover {
   color: var(--cyan);
   cursor: pointer;
 }
@@ -144,4 +182,11 @@ img {
 
 .attribution a {
   color: var(--cyan);
+}
+
+@media (max-width: 390px) {
+  .container {
+    margin: auto;
+    padding: 20px auto;
+  }
 }
