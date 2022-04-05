@@ -183,8 +183,8 @@ img {
   color: var(--cyan);
 }
 
-@media (max-width: 400px) {
-  .container {
-    width: 80%vh;
+@media (min-width: 500px) {
+  .nft-card {
+    width: 375px;
   }
 }
