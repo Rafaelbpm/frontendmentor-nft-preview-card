@@ -31,9 +31,7 @@ Thanks for reading this :D
 
 ### Screenshot
  
-My Final Design!
- 
-[My Final Design](./design/Rafael%20-%20Final%20Design.png)
+My Final Design![My Final Design](./design/Rafael%20-%20Final%20Design.png)
  
 ---
  
