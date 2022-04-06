@@ -27,7 +27,7 @@ p {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .container {
@@ -39,21 +39,11 @@ img {
 }
 
 .nft-card {
-  width: 375px;
+  max-width: 375px;
   background-color: var(--very-dark-blue-c-bg);
   border-radius: 1rem;
   padding: 1.5rem;
-  box-shadow: 0px 7px 33px 17px rgba(0, 0, 0, 0.35);
-}
-
-.color-block {
-  background-color: aqua;
-  position: absolute;
-  min-height: 327px;
-  min-width: 327px;
-  border-radius: 10px;
-  z-index: 1;
-  opacity: 40%;
+  box-shadow: 0px 7px 33px 17px rgba(0, 0, 0, 0.30);
 }
 
 .block {
@@ -72,6 +62,17 @@ img {
 .block:hover {
   opacity: 100%;
 }
+
+.color-block {
+  background-color: aqua;
+  position: absolute;
+  min-height: 327px;
+  min-width: 327px;
+  border-radius: 10px;
+  z-index: 1;
+  opacity: 40%;
+}
+
 
 .eye-icon {
   max-width: 60px;
@@ -183,8 +184,12 @@ img {
   color: var(--cyan);
 }
 
-@media (min-width: 500px) {
-  .nft-card {
-    width: 375px;
-  }
+@media (max-width: 400px) {
+.block{
+  max-width: 327px;
+}
+.color-block{
+  max-width: 327px;
+  background-color: blue;
+}
 }
