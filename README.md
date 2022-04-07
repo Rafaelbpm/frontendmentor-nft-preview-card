@@ -1,6 +1,7 @@
 # Frontend Mentor - NFT Preview Card Component
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+
 ---
 
 ### Screenshot
@@ -24,7 +25,7 @@ My Final Design![My Final Design](./design/Rafael%20-%20Final%20Design.png)
 
 ## Overview
 
-Working on this challenge was pretty fun! Although I thought it would be very similar to the “Preview Card,” my last challenge, the simple fact of having a hover state that adds another layer above the focused element made this challenge very challenging indeed.
+Working on this challenge was pretty fun! Although I thought it would be very similar to the “Order Summary,” my last challenge, the simple fact of having a hover state that adds another layer above the focused element made this challenge very challenging indeed.
 
 I couldn’t figure out how to properly do the hover state on the nft-image, so I started to play around. I know that my solution is not how it should be, and that is pretty clear when you resize the project. Still, I decided to keep my solution because I was very proud that I could find a solution just by playing around with what I’ve learned so far.
 
@@ -86,7 +87,7 @@ Areas that I need to improve and practice more:
 
 ### Useful resources
 
-- Youtube Channel - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - Css Tips
+- Youtube Channel - [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) - CSS Tips
 
 - Youtube Channel - [Dev World](https://www.youtube.com/channel/UCrm-HTaESqxJXyxMcZFOHng) For helping with Git, Github and Branches.
 
